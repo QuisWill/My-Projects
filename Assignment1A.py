@@ -1,0 +1,5 @@
+print("[Customer Receipt Generator")
+custname=input("Enter your name: ")
+item=input("Enter the item you purchased: ")
+quanity=int(input("Enter the item you purchased: "))
+print(f"Thank you, {custname}! You ordered {quanity} {item}(s).")
